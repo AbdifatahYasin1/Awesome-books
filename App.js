@@ -5,6 +5,14 @@ let msg = document.getElementById("msg");
 let bookText = document.getElementById("book-text");
 let containerbooks = document.querySelector(".container-books");
 
+class Book {
+  constructor(Title, Author) {
+    this.Title = Title;
+    this.Author = Author;
+  }
+}
+let books = new Book(Title, Author);
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -22,12 +30,9 @@ let formValidation = () => {
 };
 
 let acceptData = () => {
-  let books = [
-    {
-      book: ["text1"],
-      book: ["text2"],
-    },
-  ];
+  //   let books = [{}];
+
+  console.log(books);
 
   if (localStorage.getItem("book") === null) {
     books = [];
@@ -53,10 +58,11 @@ function renderData() {
     console.log(books);
     books.forEach((book) => {
       bookText.innerHTML += `
+      <div class="wrapper">
         <p>${book.text1}</p>
         <p>${book.text2}</p>
         <button onclick="deleteBook('${book.text1}', '${book.text2}')">Remove</button>
-
+        </div>
       `;
     });
 
