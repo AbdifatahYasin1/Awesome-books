@@ -23,7 +23,9 @@ vanilla javascript
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Html</a></li>
+     <li><a href="https://reactjs.org/">css</a></li>
+     <li><a href="https://reactjs.org/">Js</a></li>
   </ul>
 </details>
 
