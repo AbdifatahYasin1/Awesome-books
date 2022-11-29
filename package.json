@@ -1,5 +1,5 @@
 {
-  "name": "awesome-books",
+  "name": "conference-page",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "App.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdifatahYasin1/Awesome-books.git"
+    "url": "git+https://github.com/AbdifatahYasin1/Conference-Page.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbdifatahYasin1/Awesome-books/issues"
+    "url": "https://github.com/AbdifatahYasin1/Conference-Page/issues"
   },
-  "homepage": "https://github.com/AbdifatahYasin1/Awesome-books#readme",
+  "homepage": "https://github.com/AbdifatahYasin1/Conference-Page#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
