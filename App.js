@@ -28,7 +28,6 @@ class Book {
       books = [];
     } else {
       books = JSON.parse(localStorage.getItem("book"));
-      console.log(books);
     }
     let book = { text1: title, text2: author };
     books.push(book);
@@ -65,13 +64,11 @@ class Book {
     bookText.innerHTML = "";
     let books = [];
     if (localStorage.getItem("book") === null) {
-      console.log("Not Data Found");
       books = [];
     } else {
       books = JSON.parse(localStorage.getItem("book"));
-      console.log(books);
+
       books.forEach((book) => {
-        console.log(book);
         bookText.innerHTML += `
             <div class="wrapper">
                 <p>${book.text1}</p>
