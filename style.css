@@ -39,12 +39,15 @@ nav {
   justify-content: space-around;
   padding: 20px;
 }
+
 ul {
   display: flex;
 }
+
 ul li {
   list-style-type: none;
 }
+
 ul li a {
   text-decoration: none;
   color: black;
